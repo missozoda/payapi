@@ -5,3 +5,17 @@ body {
   background-position: left calc(50% + 400px) top -172px;
   background-color: rgb(237, 243, 248);
 }
+
+@include breakpoint-down (800px) {
+  body {
+    background-size: 949px 949px;
+    background-position: center top -665px;
+  }
+}
+
+@include breakpoint-down (450px) {
+  body {
+    background-size: 780px 780px;
+    background-position: center top -550px;
+  }
+}

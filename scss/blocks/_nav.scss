@@ -31,3 +31,13 @@
 .nav__link:active {
   color: rgba(54, 83, 107, 0.5);
 }
+
+@include breakpoint-down (650px) {
+  .nav {
+    display: none;
+  }
+
+  .header__btn {
+    display: none;
+  }
+}
