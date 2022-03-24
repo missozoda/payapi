@@ -1,0 +1,33 @@
+.nav {
+  margin-left: 64px;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__item ~ .nav__item {
+  margin-left: 40px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(54, 83, 107, 0.7);
+}
+
+.nav__link:hover {
+  color: rgb(54, 83, 107);
+}
+
+.nav__link:active {
+  color: rgba(54, 83, 107, 0.5);
+}

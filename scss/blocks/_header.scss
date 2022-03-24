@@ -1,0 +1,25 @@
+.header__inner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__gamburger {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.header__gamburger-img {
+  width: 28px;
+  height: 17px;
+}
+

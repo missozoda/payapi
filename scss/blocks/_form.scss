@@ -1,0 +1,22 @@
+.btn {
+  padding: 15px 25px;
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: rgb(251, 252, 254);
+  background-color: rgb(186, 66, 112);
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border: none;
+  border-radius: 24px;
+}
+
+.btn:hover {
+  background-color: rgb(218, 109, 151);
+}
+
+.btn:active {
+  background-color: rgb(186, 66, 112);
+  opacity: 0.5;
+}
