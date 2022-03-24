@@ -608,11 +608,22 @@ body {
 @media only screen and (max-width: 600px) {
   .form__input {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .form__btn {
     position: static;
     margin-top: 16px;
     padding: 15px 127px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .form__input {
+    padding-right: 80px;
+  }
+  .form__btn {
+    padding: 15px 85px;
   }
 }
 
@@ -711,5 +722,16 @@ body {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -0.246154px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero__heading {
+    width: 280px;
+  }
+  .hero__img {
+    width: 127px;
+    height: 240px;
+    border-radius: 15px;
   }
 }

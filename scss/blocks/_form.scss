@@ -47,11 +47,23 @@
 @include breakpoint-down (600px) {
   .form__input {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .form__btn {
     position: static;
     margin-top: 16px;
     padding: 15px 127px;
+  }
+}
+
+@include breakpoint-down (400px) {
+  .form__input {
+    padding-right: 80px;
+  }
+
+  .form__btn {
+    padding: 15px 85px;
   }
 }
