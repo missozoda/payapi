@@ -795,6 +795,17 @@ body {
   text-decoration: none;
 }
 
+.about__link:hover {
+  color: #1b262f;
+  background-color: white;
+}
+
+.about__link:active {
+  color: #fbfcfe;
+  background-color: transparent;
+  opacity: 0.5;
+}
+
 .about__list {
   width: 55%;
   margin: 0;
@@ -918,8 +929,8 @@ body {
 }
 
 .easy__img {
-  width: 600px;
-  height: 470px;
+  width: 445px;
+  height: 284px;
 }
 
 .easy__content {
@@ -961,8 +972,8 @@ body {
 
 @media only screen and (max-width: 550px) {
   .easy__img {
-    width: 328px;
-    height: 210px;
+    width: 410px;
+    height: 250px;
   }
   .easy__content {
     width: 90%;
@@ -975,7 +986,7 @@ body {
 
 @media only screen and (max-width: 400px) {
   .easy__img {
-    width: 290px;
-    height: 185px;
+    width: 300px;
+    height: 190px;
   }
 }

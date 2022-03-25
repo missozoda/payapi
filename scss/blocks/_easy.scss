@@ -7,8 +7,8 @@
 }
 
 .easy__img {
-  width: 600px;
-  height: 470px;
+  width: 445px;
+  height: 284px;
 }
 
 .easy__content {
@@ -48,8 +48,8 @@
 
 @include breakpoint-down (550px) {
   .easy__img {
-    width: 328px;
-    height: 210px;
+    width: 410px;
+    height: 250px;
   }
 
   .easy__content {
@@ -64,7 +64,7 @@
 
 @include breakpoint-down (400px){
   .easy__img {
-    width: 290px;
-    height: 185px;
+    width: 300px;
+    height: 190px;
   }
 }

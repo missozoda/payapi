@@ -51,6 +51,17 @@
   text-decoration: none;
 }
 
+.about__link:hover {
+  color: rgb(27, 38, 47);
+  background-color: rgb(255, 255, 255);
+}
+
+.about__link:active {
+  color: rgb(251, 252, 254);
+  background-color: transparent;
+  opacity: 0.5;
+}
+
 .about__list {
   width: 55%;
   margin: 0;
