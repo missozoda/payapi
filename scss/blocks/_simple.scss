@@ -14,7 +14,7 @@
 }
 
 .simple__content {
-  width: 445px;
+  width: 40%;
 }
 
 .simple__heading {
@@ -43,9 +43,16 @@
 }
 
 .simple__img {
-  width: 263px;
+  width: 245px;
   height: 500px;
   border-radius: 32px;
+}
+
+@include breakpoint-down (1020px) {
+  .simple__img {
+    width: 215px;
+    height: 460px;
+  }
 }
 
 

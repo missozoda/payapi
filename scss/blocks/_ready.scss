@@ -1,0 +1,34 @@
+.ready__inner {
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ready__heading {
+  margin: 0;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: rgb(54, 83, 107);
+}
+
+@include breakpoint-down (920px) {
+  .ready__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ready__heading {
+    margin-bottom: 40px;
+  }
+}
+
+@include breakpoint-down (480px) {
+  .ready__heading {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px;
+  }
+}
