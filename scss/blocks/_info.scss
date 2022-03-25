@@ -13,17 +13,13 @@
 }
 
 .info__item {
+  position: relative;
   width: 30%;
 }
 
-.info__img {
-  width: 106px;
-  height: 106px;
-}
 
 .info__heading {
   margin: 0;
-  margin-top: 32px;
   margin-bottom: 16px;
   font-family: 'Public Sans';
   font-weight: 700;
@@ -32,6 +28,50 @@
   letter-spacing: -0.138462px;
   color: #36536B;
 }
+
+.personal::before {
+  width: 106px;
+  height: 106px;
+  margin-bottom: 32px;
+  position: relative;
+  left: calc(50% - 58px);
+  top: 0;
+  display: block;
+  background-image: url("../../img/personal.png");
+  background-repeat: no-repeat;
+  background-size: 106px 106px;
+  content: " ";
+}
+
+.banking::before {
+  width: 106px;
+  height: 106px;
+  margin-bottom: 32px;
+  position: relative;
+  left: calc(50% - 58px);
+  top: 0;
+  display: block;
+  background-image: url("../../img/banking.png");
+  background-repeat: no-repeat;
+  background-size: 106px 106px;
+  content: " ";
+}
+
+.consumer::before {
+  width: 106px;
+  height: 106px;
+  margin-bottom: 32px;
+  position: relative;
+  left: calc(50% - 58px);
+  top: 0;
+  display: block;
+  background-image: url("../../img/consumer.png");
+  background-repeat: no-repeat;
+  background-size: 106px 106px;
+  content: " ";
+}
+
+
 
 .info__text {
   margin: 0;

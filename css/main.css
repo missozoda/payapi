@@ -536,12 +536,56 @@ body {
   color: rgba(54, 83, 107, 0.5);
 }
 
+.footer__logo-img {
+  color: #fbfcfe;
+}
+
+.footer__nav-link {
+  color: rgba(251, 252, 254, 0.7);
+}
+
+.footer__nav-link:hover {
+  color: #fbfcfe;
+}
+
+.footer__nav-link:active {
+  color: rgba(251, 252, 254, 0.5);
+}
+
 @media only screen and (max-width: 650px) {
   .nav {
     display: none;
   }
+  .footer__nav {
+    display: block;
+  }
   .header__btn {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer__logo-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .footer__nav {
+    margin-left: 0;
+  }
+  .footer__nav-list {
+    margin-top: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .nav__item ~ .nav__item {
+    margin-left: 0;
+    margin-top: 31px;
   }
 }
 
@@ -1155,17 +1199,12 @@ body {
 }
 
 .info__item {
+  position: relative;
   width: 30%;
-}
-
-.info__img {
-  width: 106px;
-  height: 106px;
 }
 
 .info__heading {
   margin: 0;
-  margin-top: 32px;
   margin-bottom: 16px;
   font-family: 'Public Sans';
   font-weight: 700;
@@ -1173,6 +1212,48 @@ body {
   line-height: 25px;
   letter-spacing: -0.138462px;
   color: #36536B;
+}
+
+.personal::before {
+  width: 106px;
+  height: 106px;
+  margin-bottom: 32px;
+  position: relative;
+  left: calc(50% - 58px);
+  top: 0;
+  display: block;
+  background-image: url("../../img/personal.png");
+  background-repeat: no-repeat;
+  background-size: 106px 106px;
+  content: " ";
+}
+
+.banking::before {
+  width: 106px;
+  height: 106px;
+  margin-bottom: 32px;
+  position: relative;
+  left: calc(50% - 58px);
+  top: 0;
+  display: block;
+  background-image: url("../../img/banking.png");
+  background-repeat: no-repeat;
+  background-size: 106px 106px;
+  content: " ";
+}
+
+.consumer::before {
+  width: 106px;
+  height: 106px;
+  margin-bottom: 32px;
+  position: relative;
+  left: calc(50% - 58px);
+  top: 0;
+  display: block;
+  background-image: url("../../img/consumer.png");
+  background-repeat: no-repeat;
+  background-size: 106px 106px;
+  content: " ";
 }
 
 .info__text {
@@ -1238,5 +1319,75 @@ body {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -0.246154px;
+  }
+}
+
+.footer {
+  background-image: url("../../img/about.png");
+  background-repeat: no-repeat;
+  background-size: 780px 780px;
+  background-position: left calc(50% + 750px) top -136px;
+  background-color: #1b262f;
+}
+
+.footer__inner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__icon-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__icon-item ~ .footer__icon-item {
+  margin-left: 24px;
+}
+
+.footer__icon-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer__icon-img {
+  display: block;
+  width: 24px;
+  height: 100%;
+}
+
+.footer__icon-item:hover .footer__icon-img {
+  -webkit-filter: invert(64%) sepia(57%) saturate(1324%) hue-rotate(296deg) brightness(90%) contrast(88%);
+          filter: invert(64%) sepia(57%) saturate(1324%) hue-rotate(296deg) brightness(90%) contrast(88%);
+}
+
+@media only screen and (max-width: 650px) {
+  .footer {
+    background-position: center top 150px;
+  }
+  .footer__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .footer__icon-list {
+    margin-top: 50px;
   }
 }
