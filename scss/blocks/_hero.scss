@@ -91,7 +91,7 @@
   }
 }
 
-@include breakpoint-down (600px) {
+@include breakpoint-down (400px) {
   .hero__heading {
     width: 280px;
   }
