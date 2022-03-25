@@ -623,7 +623,7 @@ body {
     padding-right: 80px;
   }
   .form__btn {
-    padding: 15px 85px;
+    padding: 15px 75px;
   }
 }
 
@@ -966,6 +966,7 @@ body {
   }
   .easy__content {
     width: 80%;
+    margin-top: 48px;
     text-align: center;
   }
 }
