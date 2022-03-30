@@ -13,7 +13,6 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-
         <div class="logo-nav">
           <a class="logo" href="./index.html" target="_blank">
             <img class="logo__img" src="./img/logo.svg" alt="Site logo" width="135" height="38">
@@ -24,9 +23,11 @@
               <li class="nav__item">
                 <a class="nav__link" href="#" target="_blank">Pricing</a>
               </li>
+
               <li class="nav__item">
                 <a class="nav__link" href="#" target="_blank">About</a>
               </li>
+
               <li class="nav__item">
                 <a class="nav__link" href="#" target="_blank">Contact</a>
               </li>
@@ -36,163 +37,116 @@
 
         <button class="header__btn btn" type="button">Schedule a Demo</button>
         <button class="header__gamburger">
+
           <img class="header__gamburger-img" src="./img/gamburger.svg" alt="Gambueger" width="28" height="17">
         </button>
-
       </div>
     </div>
   </header>
   <!-- /site header end- -->
 
   <main>
-    <!-- site hero -->
-    <section class="hero">
+    <!-- pricing section -->
+    <section class="pricing">
       <div class="container">
-        <div class="hero__inner">
+        <div class="pricing__inner">
+          <h3 class="pricing__heading">Pricing</h3>
 
-          <div class="hero__content">
-            <h2 class="hero__heading">Start building with our APIs for absolutely free.</h2>
-
-            <form class="form" action="https://echo.htmlacademy.ru" method="post">
-
-              <label class="form__label" for="email">
-                <input class="form__input" type="email" id="email" name="email" placeholder="Enter email address" required>
-              </label>
-              
-              <button class="form__btn btn" type="submit"> Schedule a Demo </button>
-
-            </form>
-
-            <p class="hero__text">
-              Have any questions?
-              <a class="hero__text-link" href="#">Contact Us</a>
-            </p>
-
-          </div>
-
-          <img class="hero__img" src="./img/hero-phone.png" alt="Phone" width="263" height="500">
-
-        </div>
-      </div>
-    </section>
-    <!-- /site hero end -->
-
-    <!-- about section -->
-    <section class="about">
-      <div class="container">
-        <div class="about__inner">
-
-          <div class="about__content">
-            <h3 class="about__heading">Who we work with</h3>
-            <p class="about__text">Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. </p>
-            <a class="about__link" href="#" target="_blank">About Us</a>
-          </div>
-
-          <ul class="about__list">
-            <li class="about__item">
-              <a class="about__item-link" href="https://www.tesla.com" target="_blank">
-                <img class="about__item-img" src="./img/tesla.svg" alt="Tesla" width="129" height="17">
-              </a>
-            </li>
-            
-            <li class="about__item">
-              <a class="about__item-link" href="https://www.microsoft.com" target="_blank">
-                <img class="about__item-img" src="./img/microsoft.svg" alt="Microsoft" width="145" height="31">
-              </a>
+          <ul class="pricing__list">
+            <li class="pricing__item">
+              <h4 class="item__heading">Free Plan</h4>
+              <p class="item__text">Build and test using our core set of products with up to 100 API requests </p>
+              <p class="item__cost">$0.00</p>
+              <ul class="item__list">
+                <li class="item__item">
+                  <p class="item__info check">Transactions</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Auth</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Identity</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info">Investments</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info">Assets</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info">Liabilities</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info">Income</p>
+                </li>
+              </ul>
+              <button class="item__btn">Request Access</button>
             </li>
 
-            <li class="about__item">
-              <a class="about__item-link" href="https://www.hp.com" target="_blank">
-                <img class="about__item-img" src="./img/hp.svg" alt="HP" width="140" height="27">
-              </a>
+            <li class="pricing__item">
+              <h4 class="item__heading">Basic Plan</h4>
+              <p class="item__text">Launch your project with unlimited requests and no contractual minimums </p>
+              <p class="item__cost">$249.00</p>
+              <ul class="item__list">
+                <li class="item__item">
+                  <p class="item__info check">Transactions</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Auth</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Identity</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Investments</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Assets</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info">Liabilities</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info">Income</p>
+                </li>
+              </ul>
+              <button class="item__btn">Request Access</button>
             </li>
 
-            <li class="about__item">
-              <a class="about__item-link" href="https://www.oracle.com" target="_blank">
-                <img class="about__item-img" src="./img/oracle.svg" alt="Oracle" width="131" height="17">
-              </a>
+            <li class="pricing__item">
+              <h4 class="item__heading">Premium Plan</h4>
+              <p class="item__text">Get tailored solutions, volume pricing, and dedicated support for your team </p>
+              <p class="item__cost">$499.00</p>
+              <ul class="item__list">
+                <li class="item__item">
+                  <p class="item__info check">Transactions</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Auth</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Identity</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Investments</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Assets</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Liabilities</p>
+                </li>
+                <li class="item__item">
+                  <p class="item__info check">Income</p>
+                </li>
+              </ul>
+              <button class="item__btn">Request Access</button>
             </li>
-
-            <li class="about__item">
-              <a class="about__item-link" href="https://www.google.com" target="_blank">
-                <img class="about__item-img" src="./img/google.svg" alt="Google" width="96" height="33">
-              </a>
-            </li>
-
-            <li class="about__item">
-              <a class="about__item-link" href="https://www.nvidia.ru" target="_blank">
-                <img class="about__item-img" src="./img/nvidia.svg" alt="Nvidia" width="137" height="26">
-              </a>
-            </li>
-
           </ul>
         </div>
       </div>
     </section>
-    <!-- /about section end- -->
-
-    <!-- easy section -->
-    <section class="easy">
-      <div class="container">
-        <div class="easy__inner">
-
-          <img class="easy__img" src="./img/easy-to-implement.png" alt="Easy-to-implement" width="600" height="470">
-
-          <div class="easy__content">
-            <h3 class="easy__heading">Easy to implement</h3>
-            <p class="easy__text">Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- /easy section end -->
-
-    <!-- simple section -->
-    <section class="simple">
-      <div class="container">
-        <div class="simple__inner">
-
-          <div class="simple__content">
-            <h3 class="simple__heading">Simple UI & UX</h3>
-            <p class="simple__text">Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion. </p>
-          </div>
-
-          <div class="simple__img-group">
-            <img class="simple__img" src="./img/simple-left.png" alt="Simple mobile" width="245" height="500">
-            <img class="simple__img" src="./img/simple-right.png" alt="Simple mobile" width="245" height="500">
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- /simple section end -->
-
-    <!-- info section- -->
-    <section class="info">
-      <div class="container">
-        <div class="info__inner">
-          <ul class="info__list">
-            <li class="info__item">
-              <h4 class="info__heading personal">Personal Finances</h4>
-              <p class="info__text">Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. </p>
-            </li>
-
-            <li class="info__item">
-              <h4 class="info__heading banking">Banking & Coverage</h4>
-              <p class="info__text">With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
-            </li>
-
-            <li class="info__item">
-              <h4 class="info__heading consumer">Consumer Payments</h4>
-              <p class="info__text">It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- /info section end -->
+    <!-- /pricing section end -->
 
     <!-- -ready section -->
     <section class="ready">
@@ -213,12 +167,10 @@
     </section>
     <!-- /ready section end -->
   </main>
-
   <!-- site footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
-
         <div class="footer__logo-nav logo-nav">
           <a class="logo" href="./index.html" target="_blank">
             <img class="footer__logo-img logo__img" src="./img/footer-logo.svg" alt="Site logo" width="135" height="38">
@@ -229,9 +181,11 @@
               <li class="nav__item">
                 <a class="footer__nav-link nav__link" href="#" target="_blank">Pricing</a>
               </li>
+
               <li class="nav__item">
                 <a class="footer__nav-link nav__link" href="#" target="_blank">About</a>
               </li>
+
               <li class="nav__item">
                 <a class="footer__nav-link nav__link" href="#" target="_blank">Contact</a>
               </li>
@@ -244,9 +198,10 @@
             <a class="footer__icon-link" href="https://www.facebook.com">
               <svg class="footer__icon-img" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path id="share" d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z" fill="#FBFCFE"/>
-                </svg>
+              </svg>
             </a>
           </li>
+
           <li class="footer__icon-item">
             <a class="footer__icon-link" href="https://www.twitter.com">
               <svg class="footer__icon-img" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -254,11 +209,12 @@
                 </svg>
             </a>
           </li>
+
           <li class="footer__icon-item">
             <a class="footer__icon-link" href="https://www.linkedin.com">
               <svg class="footer__icon-img" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M2.4 0H21.6C22.92 0 24 1.08 24 2.4V21.6C24 22.92 22.92 24 21.6 24H2.4C1.08 24 0 22.92 0 21.6V2.4C0 1.08 1.08 0 2.4 0ZM3.6 20.4H7.2V9.6H3.6V20.4ZM5.4 7.56C4.2 7.56 3.24 6.6 3.24 5.4C3.24 4.2 4.2 3.24 5.4 3.24C6.6 3.24 7.56 4.2 7.56 5.4C7.56 6.6 6.6 7.56 5.4 7.56ZM16.8 20.4H20.4V13.56C20.4 11.28 18.48 9.36 16.2 9.36C15.12 9.36 13.8 10.08 13.2 11.04V9.6H9.6V20.4H13.2V14.04C13.2 13.08 14.04 12.24 15 12.24C15.96 12.24 16.8 13.08 16.8 14.04V20.4Z" fill="white"/>
-                </svg>
+              </svg>
             </a>
           </li>
         </ul>
