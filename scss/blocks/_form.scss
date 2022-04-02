@@ -45,6 +45,85 @@
   color: rgba(54, 83, 107, 0.5);
 }
 
+
+
+
+.site-form__label {
+  display: block;
+}
+
+.site-form__input {
+  margin-bottom: 24px;
+  padding-left: 20px;
+  padding-bottom: 16px;
+  padding-right: 320px;
+  font-family: 'Public Sans';
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: rgba(54, 83, 107, 0.5);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(54, 83, 107, 0.5);
+}
+
+.massage {
+  padding-bottom: 63px;
+}
+
+.check-box {
+  display: flex;
+  align-items: center;
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(54, 83, 107, 0.25);
+  border: none;
+  cursor: pointer;
+}
+
+.check:checked {
+  color: rgba(186, 66, 112, 1);
+  background-color: rgba(186, 66, 112, 1);
+}
+
+.check-text {
+  width: 35%;
+  margin-left: 26px;
+  display: inline-block;
+  font-family: 'Public Sans';
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: rgb(54, 83, 107);
+}
+
+.site-form__btn {
+  margin-top: 24px;
+  padding: 15px 50px;
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: rgb(54, 83, 107);
+  background-color: transparent;
+  border: 1px solid rgb(54, 83, 107);
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.site-form__btn:hover {
+  color: rgb(251, 252, 254);
+  background-color: rgb(54, 83, 107);
+}
+
+
+
+
 @include breakpoint-down (600px) {
   .form__input {
     display: block;
@@ -66,5 +145,41 @@
 
   .form__btn {
     padding: 15px 75px;
+  }
+}
+
+
+
+
+@include breakpoint-down (1000px) {
+  .check-text {
+    width: 60%;
+  }
+}
+
+@include breakpoint-down (800px) {
+  .site-form__input {
+    padding-right: 250px;
+  }
+}
+
+@include breakpoint-down (500px) {
+  .site-form__input {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+  }
+
+  .check-text {
+    width: 85%;
+    margin-left: 16px;
+  }
+}
+
+@include breakpoint-down (400px) {
+  .site-form__input {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 100px;
   }
 }
